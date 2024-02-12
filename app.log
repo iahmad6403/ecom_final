@@ -73,3 +73,43 @@ INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 11:54:52] "GET /api/temperature_over_ti
 INFO:werkzeug: * Detected change in 'c:\\Users\\ibrahim.ahmad\\OneDrive - Ricoh Europe PLC\\Documents\\dashboard\\appnewest.py', reloading
 INFO:werkzeug: * Detected change in 'c:\\Users\\ibrahim.ahmad\\OneDrive - Ricoh Europe PLC\\Documents\\dashboard\\app.py', reloading
 INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 222-080-546
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrahim.ahmad\\AppData\\Local\\anaconda3\\Lib\\site-packages\\flask\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrahim.ahmad\\AppData\\Local\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrahim.ahmad\\AppData\\Local\\anaconda3\\Lib\\site-packages\\flask\\scaffold.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\ibrahim.ahmad\\OneDrive - Ricoh Europe PLC\\Documents\\dashboard\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrahim.ahmad\\AppData\\Local\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrahim.ahmad\\AppData\\Local\\anaconda3\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrahim.ahmad\\AppData\\Local\\anaconda3\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrahim.ahmad\\AppData\\Local\\anaconda3\\Lib\\site-packages\\flask\\templating.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrahim.ahmad\\AppData\\Local\\anaconda3\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrahim.ahmad\\AppData\\Local\\anaconda3\\Lib\\site-packages\\jinja2\\environment.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrahim.ahmad\\AppData\\Local\\anaconda3\\Lib\\site-packages\\flask\\sessions.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrahim.ahmad\\AppData\\Local\\anaconda3\\Lib\\site-packages\\flask\\json\\tag.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrahim.ahmad\\AppData\\Local\\anaconda3\\Lib\\site-packages\\flask\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\ibrahim.ahmad\\AppData\\Local\\anaconda3\\Lib\\site-packages\\flask\\typing.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 222-080-546
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:01:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:01:57] "GET /static/dashboard-script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:01:57] "[36mGET /static/dashboard_stylesheet.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:01:57] "GET /api/low_stock_levels HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:01:57] "GET /api/most_popular_products HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:01:57] "GET /api/payment_method_popularity HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:01:57] "GET /api/product_category_popularity HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): archive-api.open-meteo.com:443
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:01:57] "GET /api/revenue_generation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:01:57] "GET /api/orders_over_time HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:https://archive-api.open-meteo.com:443 "GET /v1/archive?latitude=50.6053&longitude=-3.5952&start_date=2023-05-01&end_date=2023-08-31&daily=temperature_2m_max&timezone=GMT HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2024 12:01:58] "GET /api/temperature_over_time HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'c:\\Users\\ibrahim.ahmad\\OneDrive - Ricoh Europe PLC\\Documents\\dashboard\\app.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\ibrahim.ahmad\\OneDrive - Ricoh Europe PLC\\Documents\\dashboard\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 222-080-546

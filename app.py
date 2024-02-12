@@ -2,9 +2,8 @@ from flask import Flask, jsonify, render_template, Response, abort, make_respons
 import sqlite3
 import pathlib
 import logging
-import requests  # Importing the requests library
+import requests  
 
-# Setup logging
 logging.basicConfig(filename="app.log", level=logging.DEBUG)
 
 working_directory = pathlib.Path(__file__).parent.absolute()
